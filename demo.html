@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8" /><title>Proof of concept, landing page</title></head>
+<body>
+	<h3>This is just a proof of concept filled with invalid data for now</h3>
+<script>
+function update() {
+	var language = document.getElementById("language").value;
+	if( language == "" )
+		return;
+
+	var month = document.getElementById("month").value;
+	if( month == "" )
+		return;
+	var link = `https://assets.example.com/shared/${language}/${month}/500x100/company.png`
+	document.getElementById("output").innerHTML = link;
+}
+</script>
+
+<select id="language" onchange="update()">
+	<option selected value="">Select language</option>
+	<option value="da-DK">Danish</option>
+	<option value="fi-FI">Finnish</option>
+	<option value="nb-NO">Norwegian</option>
+	<option value="sv-SE">Swedish</option>
+</select>
+
+<select id="month" onchange="update()">
+	<option selected value="">Select Month</option>
+	<option value="January">January</option>
+	<option value="February">February</option>
+	<option value="March">March</option>
+	<option value="April">April</option>
+	<option value="May">May</option>
+	<option value="June">June</option>
+	<option value="July">July</option>
+	<option value="August">August</option>
+	<option value="September">September</option>
+	<option value="October">October</option>
+	<option value="November">November</option>
+	<option value="December">December</option>
+</select>
+
+<p>Your link:</p>
+
+<pre id="output"></pre>
+
+
+</body></html>
