@@ -4,7 +4,7 @@ Remote workshops and meetings are very popular right now. However, many of the p
 
 ## a quick tutorial
 
-Download and install [OBS](https://obsproject.com/download) and the [VirtualCamera plugin](https://obsproject.com/forum/resources/obs-virtualcam.539/). Open OBS and select `Tools > VirtualCam` and press `Start`. This should create a virtual web camera (named `OBS-Camera` by default) that you can select in Hangouts, slack, or whatever your choice of video conferance software is.
+Download and install [OBS](https://obsproject.com/download) and the [VirtualCamera plugin](https://obsproject.com/forum/resources/obs-virtualcam.949/). Open OBS and select `Tools > VirtualCam` and press `Start`. This should create a virtual web camera (named `OBS-Camera` by default) that you can select in Hangouts, slack, or whatever your choice of video conferance software is.
 
 The main parts of OBS to keep track of are the list of scenes, the list of sources, and the main preview window. Ignore audio mixer in the middle, and the buttons on the right side of the OBS window, they don't help you at the moment.
 
